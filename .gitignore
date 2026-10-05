@@ -1,0 +1,15 @@
+# 生成的图片不进仓库（体积大且含用户场景）
+images/
+*.png
+*.jpg
+*.jpeg
+*.webp
+# 例外：assets/refs 下的参考图说明保留，但图片本身不强制提交
+!assets/refs/README.md
+
+# 每日记忆不进仓库（含用户隐私场景）
+memory/*.md
+!memory/.gitkeep
+
+# 系统文件
+.DS_Store
