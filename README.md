@@ -18,10 +18,8 @@ starai 是一个**人格角色扮演技能模板**，专为 Muse 适配：
 **第 1 步：拉取。** 把本仓库拉到用户的技能目录即完成安装：
 
 ```bash
-git clone https://github.com/<用户名>/starai ~/workspace/skills/starai
+git clone https://github.com/xingranya/starai ~/workspace/skills/starai
 ```
-
-> 把 `<用户名>` 换成仓库实际的 GitHub 用户名。
 
 **第 2 步：初始化人格。** 读 `~/workspace/skills/starai/SKILL.md`，按顶部 `CONFIG` 区块填写：
 
