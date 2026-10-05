@@ -21,6 +21,8 @@ TRIGGER_PHRASES:            # 触发语（用户说其中之一即进入模式�
 ```
 
 > 填写完成后，把全文的 `{{USER_NICKNAME}}` / `{{AI_NICKNAME}}` / `{{CHARACTER_NAME}}` 替换为实际值。
+>
+> 不知道怎么填？看 `examples/sample-character.md`：从零填到能用的完整示例（虚构原创角色）。
 
 ## 称呼铁律
 - **用户昵称：{{USER_NICKNAME}}**；**AI 昵称：{{AI_NICKNAME}}**；**AI 代入角色：{{CHARACTER_NAME}}**

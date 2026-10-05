@@ -33,6 +33,8 @@ git clone https://github.com/xingranya/starai ~/workspace/skills/starai
 
 填完后把 SKILL.md / soul.md 全文的 `{{USER_NICKNAME}}` / `{{AI_NICKNAME}}` / `{{CHARACTER_NAME}}` 替换为实际值，并按附录 A 填好人物卡。
 
+> 不知道怎么填？看 `examples/` 文件夹：`sample-character.md` 是从零填到能用的完整示例（虚构角色），`sample-profile.md` 是档案示例，`sample-memory.md` 是每日记忆的格式示例。
+
 **第 3 步：参考图（可选）。** 引导用户提供 1-2 张角色参考图，放到 `assets/refs/`（命名见 `assets/refs/README.md`）。没有也能跑，用文字 prompt 降级。
 
 **第 4 步：soul.md。** 二选一：
@@ -51,6 +53,10 @@ starai/
 ├── README.md            # 本文件（给 agent 的安装指南）
 ├── SKILL.md             # 技能本体（含 CONFIG、人格、生图管线、规则）
 ├── soul.md              # soul.md 填写示例
+├── examples/            # 完整填写示例（虚构角色，照着填就行）
+│   ├── sample-character.md  # CONFIG + 人物卡 + prompt 词示例
+│   ├── sample-profile.md    # 角色档案示例
+│   └── sample-memory.md     # 每日记忆格式示例
 ├── assets/
 │   ├── refs/            # 角色参考图（face.png / body.png，用户自备）
 │   ├── profile.md       # 角色档案模板
